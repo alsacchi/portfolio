@@ -4,25 +4,28 @@ import Date from '../components/date'
 import Layout, {siteTitle} from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import { getImageData } from '../lib/logos.js'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+  const imageData = getImageData()
   return {
     props: {
-      allPostsData
+      allPostsData,
+      imageData
     }
   }
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, imageData }) {
   return (
-    <Layout home>
+    <Layout home logoNames={imageData}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Ciao, Io sono <b><a>Andrea</a></b>. Sono uno studente presso ITIS Feltrinelli Milano.<br/>
+          Ciao, Io sono <b><a href="mailto:andrealorenzosacchi@gmail.com">Andrea</a></b>.<br />Sono uno studente presso ITIS Feltrinelli Milano.<br/>
           Mi puoi contattare su {' '}
           <a href="https://twitter.com/alsacchi">Twitter</a>.
         </p>

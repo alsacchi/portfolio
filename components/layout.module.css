@@ -13,3 +13,9 @@
 .backToHome {
     margin: 3rem 0 0;
 }
+
+.logoRow {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}

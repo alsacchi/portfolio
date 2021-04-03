@@ -1,0 +1,8 @@
+.logo {
+    transition: filter 0.5s linear;
+}
+
+.logo:hover {
+    filter: brightness(30%) sepia(100) saturate(50) hue-rotate(267deg);
+}
+
