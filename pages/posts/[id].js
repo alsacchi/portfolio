@@ -3,10 +3,11 @@ import Date from '../../components/date'
 import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getAllPostIds, getPostData  } from '../../lib/posts'
+import { getImageData } from '../../lib/logos.js'
 
-export default function Post({ postData }) {
+export default function Post({ postData, imageData }) {
     return (
-        <Layout>
+        <Layout logoNames={imageData}>
             <Head>
                 <title>{postData.title}</title>
             </Head>
@@ -33,9 +34,11 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
     // Fetch necessary data for the blog using params.id
     const postData = await getPostData(params.id)
+    const imageData = getImageData()
     return {
         props: {
-            postData
+            postData,
+            imageData
         }
     }
 }
