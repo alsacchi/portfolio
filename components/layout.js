@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '../components/logo'
 import styles from './layout.module.css'
+import logoStyles from './logo.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
@@ -23,6 +24,7 @@ export default function Layout({ children, home, logoNames }) {
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_item" />
+                <link rel="stylesheet" href="../css/prism-synthwave84.css" />
             </Head>
             <header className={styles.header}>
                 {home ? (
@@ -35,7 +37,9 @@ export default function Layout({ children, home, logoNames }) {
                       width={144}
                       alt={name}
                     />
-                    <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                    <a href="mailto:andrealorenzosacchi@gmail.com">
+                      <h1 className={utilStyles.heading2Xl} >{name}</h1>
+                    </a>
                   </>
                 ) : (
                   <>
@@ -60,7 +64,7 @@ export default function Layout({ children, home, logoNames }) {
                 )}
                 <div className={styles.logoRow}>
                   {logoNames.data.map(({id, href}) => (
-                    <Logo source={id} href={href}/>
+                    <Logo key={id} source={id} href={href}/>
                   ))}
                 </div>
             </header>

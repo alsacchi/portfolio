@@ -1,3 +1,5 @@
+@import "./prims-synthwave84.css";
+
 html,
 body {
   padding: 0;
@@ -14,8 +16,12 @@ body {
   box-sizing: border-box;
 }
 
+h3 {
+  color: #f92aad;
+}
+
 a {
-  color: #bb86fc;
+  color: #f92aad;
   text-decoration: none;
 }
 

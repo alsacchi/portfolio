@@ -25,9 +25,7 @@ export default function Home({ allPostsData, imageData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Ciao, Io sono <b><a href="mailto:andrealorenzosacchi@gmail.com">Andrea</a></b>.<br />Sono uno studente presso ITIS Feltrinelli Milano.<br/>
-          Mi puoi contattare su {' '}
-          <a href="https://twitter.com/alsacchi">Twitter</a>.
+          Sono un ragazzo di 18 anni, sviluppatore.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
