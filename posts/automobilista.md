@@ -113,13 +113,13 @@ Content-Type: application/json
 ```
 
 ### IL CODICE FISCALE L'ARMA DEL DEMONIO
-Alla prima richiesta noto che l'unica chiave del oggetto JSON è il "codiceFiscale", da quella momento mi si accese una lampadina ma allo stesso tempo speravo fosse un errore troppo stupido per potersi presentare in questo portale.  
-Tutto questo mi ha ricordato il portale dell'ATS di Milano dove con il codice fiscale potevi scoprire se una persona era positiva o meno al COVID.
-![Flow conversazione](../images/posts/automobilista/flow.png)
+Alla prima richiesta noto che l'unica chiave del oggetto JSON è il "codiceFiscale", speravo tanto non potesse essere così facile.
 
 ### Mi sbaglio sempre
 Avevo una vasta scelta di codici fiscali da provare tra cui quello di mio padre, mio fratello o mia mamma.
-Modificato il corpo JSON con il nuovo codice fiscale ho fatto un replay della richiesta e dopo circa 300 millisecondi ecco la risposta, terrificante quanto divertente non ricevo il numero della mia patente ma bensì quello <s>del ex ministro degli interni</s> di mio padre.
+Modificato il corpo JSON con il nuovo codice fiscale ho fatto un replay della richiesta e dopo circa 300 millisecondi ecco la risposta, terrificante quanto divertente non ricevo il numero della mia patente ma bensì quello <s>del ex ministro degli interni</s> di mio padre.  
+Tutto questo mi ha ricordato il portale dell'ATS di Milano dove con il codice fiscale potevi scoprire se una persona era positiva o meno al COVID.
+![Flow conversazione](../images/posts/automobilista/flow.png)
 
 ### E Ora?
 Subito a fare festa! Ho scoperto la mia prima vulnerabilità di un certo rilievo, cosa fare ora?  
@@ -146,10 +146,11 @@ Dopo altri estenuanti giorni, con il dito pronto a mandare un tweet con il numer
 ### La fine
 Da li a poco la falla è stata chiusa, il mondo era chiaramente diventato un posto migliore grazie a me.
 
-<s>MI ASPETTAVO ALMENO UN GRAZIE E ANCHE DEI SOLDI MA NIENTE DI TUTTO QUESTO.</s>
+<s>MI ASPETTAVO ALMENO UN GRAZIE MA NIENTE DI TUTTO QUESTO.</s>
 
 
 ### Stato report
+5/11/2020: Scoperta vulnerabilità
 6/11/2020: Segnalazione all'AGID  
 6/11/2020: Agid inoltra allo CSIRT  
 20/11/2020: Risegnalazione direttamente allo CSIRT  
