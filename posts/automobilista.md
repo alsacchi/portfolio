@@ -152,7 +152,7 @@ Da li a poco la falla è stata chiusa, il mondo era chiaramente diventato un pos
 ### Stato report
 5/11/2020: Scoperta vulnerabilità
 6/11/2020: Segnalazione all'AGID  
-6/11/2020: Agid inoltra allo CSIRT  
+11/11/2020: Agid inoltra allo CSIRT  
 20/11/2020: Risegnalazione direttamente allo CSIRT  
 6/12/2020: Richiesta aggiornamenti dallo CSIRT  
 11/12/2020: Risposta dallo CSIRT  
