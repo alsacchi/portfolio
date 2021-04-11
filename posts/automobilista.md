@@ -123,7 +123,7 @@ Tutto questo mi ha ricordato il portale dell'ATS di Milano dove con il codice fi
 
 ### E Ora?
 Subito a fare festa! Ho scoperto la mia prima vulnerabilità di un certo rilievo, cosa fare ora?  
-Beh prima tutto bisognava riferire la scoperta a mio padre, che ha detta della sua bio di twitter è un "*Programmatore di un certo livello*",  infatti una domanda gli sorse spostanea: "Sei passato da TOR? Hai usato un account senza nessun riferimento alla tua persona? PERCHÈ PROPRIO IL MIO CODICE FISCALE <s>DI UN EX MINISTRO DEGLI INTERNI</s>?"  
+Beh prima tutto bisognava riferire la scoperta a mio padre, che a detta della sua bio di twitter è un "*Programmatore di un certo livello*",  infatti una domanda gli sorse spostanea: "Sei passato da TOR? Hai usato un account senza nessun riferimento alla tua persona? PERCHÈ PROPRIO IL MIO CODICE FISCALE <s>DI UN EX MINISTRO DEGLI INTERNI</s>?"  
 
 Io non ero passato da TOR o VPN varie e avevo pure usato il mio account, e non c'era neanche la necessità di usare il mio perchè bastava un qualsiasi account ex novo senza dati reali.  
 Ora panico, questi ci denunciano, lo so come funziona in Italia quando dai fai una roba del genere:
