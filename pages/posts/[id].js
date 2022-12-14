@@ -7,7 +7,7 @@ import { getImageData } from '../../lib/logos.js'
 
 export default function Post({ postData, imageData }) {
     return (
-        <Layout logoNames={imageData}>
+        <Layout logoNames={imageData} head={true}>
             <Head>
                 <title>{postData.title}</title>
             </Head>
@@ -16,7 +16,7 @@ export default function Post({ postData, imageData }) {
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
-                <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
+                <div className={utilStyles.overflow} dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
             </article>
         </Layout>
     )

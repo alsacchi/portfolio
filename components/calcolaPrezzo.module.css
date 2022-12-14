@@ -1,0 +1,21 @@
+.inputText {
+    color: white;
+    text-align: right;
+    margin-bottom: 10px;
+    border-color: #f92aad;
+    height: 53px; 
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    /* text-align: justify; */
+}
+
+.button {
+    margin-top: 10px;
+    height: 53px;
+    width: 275px;
+    text-align: center;
+    border-color: #f92aad;;
+}
