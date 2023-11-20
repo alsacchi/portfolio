@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Date from '../components/date'
+import Datez  from '../components/date'
 import Layout, {siteTitle} from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
@@ -25,7 +25,7 @@ export default function Home({ allPostsData, imageData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Sono un ragazzo di 18 anni, sviluppatore.
+          Sono un ragazzo di {new Date().getFullYear() - 2002} anni, sviluppatore.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -38,7 +38,7 @@ export default function Home({ allPostsData, imageData }) {
              </Link>
              <br />
              <small className={utilStyles.lightText}>
-               <Date dateString={date} />
+               <Datez dateString={date} />
              </small>
             </li>
           ))}
